@@ -1,0 +1,547 @@
+{
+  "generated": "2026-08-25T21:55:27.296Z",
+  "tags": [
+    "wcag2a",
+    "wcag2aa",
+    "wcag21a",
+    "wcag21aa"
+  ],
+  "pages": [
+    {
+      "url": "https://ccaurora.edu/",
+      "title": "Home – Community College of Aurora",
+      "finalUrl": "https://ccaurora.edu/",
+      "slug": "home",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "#menu-toggle",
+            ".header__search-toggle"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 46,
+          "firstTargets": [
+            ".header__bar-primary-link.button--links[href$=\"apply/\"] > span",
+            ".header__bar-primary-item:nth-child(2) > .header__bar-primary-link.button--links > span",
+            ".header__bar-primary-link.button--links[href$=\"programs/\"] > span"
+          ]
+        },
+        {
+          "id": "video-caption",
+          "impact": "critical",
+          "help": "<video> elements must have captions",
+          "wcag": [
+            "wcag2a",
+            "wcag122"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "video"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccaurora.edu/about-cca/",
+      "title": "About CCA – Community College of Aurora",
+      "finalUrl": "https://ccaurora.edu/about-cca/",
+      "slug": "about-cca",
+      "violations": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-hidden-focus?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#menu"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "#menu-toggle",
+            ".header__search-toggle"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 6,
+          "firstTargets": [
+            ".stats__card-item:nth-child(2) > .stats__card-description.wysiwyg > p",
+            ".stats__card-item:nth-child(3) > .stats__card-description.wysiwyg > p",
+            ".stats__card-item:nth-child(4) > .stats__card-description.wysiwyg > p"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccaurora.edu/about-cca/campus-locations/",
+      "title": "Campus Locations – Community College of Aurora",
+      "finalUrl": "https://ccaurora.edu/about-cca/campus-locations/",
+      "slug": "about-cca-campus-locations",
+      "violations": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-hidden-focus?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#menu"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "#menu-toggle",
+            ".header__search-toggle"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccaurora.edu/academics/academic-leadership/",
+      "title": "Academic Leadership – Community College of Aurora",
+      "finalUrl": "https://ccaurora.edu/academics/academic-leadership/",
+      "slug": "academics-academic-leadership",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "#menu-toggle",
+            ".header__search-toggle"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 35,
+          "firstTargets": [
+            ".header__bar-primary-link.button--links[href$=\"apply/\"] > span",
+            ".header__bar-primary-item:nth-child(2) > .header__bar-primary-link.button--links > span",
+            ".header__bar-primary-link.button--links[href$=\"programs/\"] > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccaurora.edu/academics/concurrent-enrollment/",
+      "title": "Concurrent Enrollment – Community College of Aurora",
+      "finalUrl": "https://ccaurora.edu/academics/concurrent-enrollment/",
+      "slug": "academics-concurrent-enrollment",
+      "violations": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-hidden-focus?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "#menu",
+            "#ac-Wukq2uoJsC"
+          ]
+        }
+      ],
+      "violationTotal": 2,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "#menu-toggle",
+            ".header__search-toggle"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccaurora.edu/academics/getting-started/",
+      "title": "Getting Started – Community College of Aurora",
+      "finalUrl": "https://ccaurora.edu/academics/getting-started/",
+      "slug": "academics-getting-started",
+      "violations": [
+        {
+          "id": "label",
+          "impact": "critical",
+          "help": "Form elements must have labels",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/label?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 12,
+          "firstTargets": [
+            ".cards__item:nth-child(1) > .cards__item-description.wysiwyg > p:nth-child(1) > input[type=\"checkbox\"]",
+            "strong > input[type=\"checkbox\"]",
+            "p:nth-child(10) > input[type=\"checkbox\"]",
+            ".cards__item:nth-child(2) > .cards__item-description.wysiwyg > p:nth-child(1) > input[type=\"checkbox\"]",
+            ".cards__item:nth-child(2) > .cards__item-description.wysiwyg > p:nth-child(4) > input[type=\"checkbox\"]"
+          ]
+        }
+      ],
+      "violationTotal": 12,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "#menu-toggle",
+            ".header__search-toggle"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 54,
+          "firstTargets": [
+            ".header__bar-primary-link.button--links[href$=\"apply/\"] > span",
+            ".header__bar-primary-item:nth-child(2) > .header__bar-primary-link.button--links > span",
+            ".header__bar-primary-link.button--links[href$=\"programs/\"] > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccaurora.edu/academics/workforce-training/",
+      "status": 403,
+      "title": null,
+      "finalUrl": "https://ccaurora.edu/academics/workforce-training/",
+      "slug": "academics-workforce-training",
+      "blocked": true,
+      "error": "HTTP 403",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": []
+    },
+    {
+      "url": "https://ccaurora.edu/admission-aid/advising/",
+      "status": 403,
+      "title": null,
+      "finalUrl": "https://ccaurora.edu/admission-aid/advising/",
+      "slug": "admission-aid-advising",
+      "blocked": true,
+      "error": "HTTP 403",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": []
+    },
+    {
+      "url": "https://ccaurora.edu/admission-aid/financial-aid/office-of-the-cashier/",
+      "title": "Cashier's Office – Community College of Aurora",
+      "finalUrl": "https://ccaurora.edu/admission-aid/financial-aid/office-of-the-cashier/",
+      "slug": "admission-aid-financial-aid-office-of-the-cashier",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "#menu-toggle",
+            ".header__search-toggle"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 47,
+          "firstTargets": [
+            ".header__bar-primary-link.button--links[href$=\"apply/\"] > span",
+            ".header__bar-primary-item:nth-child(2) > .header__bar-primary-link.button--links > span",
+            ".header__bar-primary-link.button--links[href$=\"programs/\"] > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccaurora.edu/apply/",
+      "title": "Apply – Community College of Aurora",
+      "finalUrl": "https://ccaurora.edu/apply/",
+      "slug": "apply",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "#menu-toggle",
+            ".header__search-toggle"
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "wcag": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "nodes": 45,
+          "firstTargets": [
+            ".header__bar-primary-link.button--links[href$=\"apply/\"] > span",
+            ".header__bar-primary-item:nth-child(2) > .header__bar-primary-link.button--links > span",
+            ".header__bar-primary-link.button--links[href$=\"programs/\"] > span"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccaurora.edu/apply/adult-learners/",
+      "status": 403,
+      "title": null,
+      "finalUrl": "https://ccaurora.edu/apply/adult-learners/",
+      "slug": "apply-adult-learners",
+      "blocked": true,
+      "error": "HTTP 403",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": []
+    },
+    {
+      "url": "https://ccaurora.edu/cca-tours/",
+      "title": "CCA Tours – Community College of Aurora",
+      "finalUrl": "https://ccaurora.edu/cca-tours/",
+      "slug": "cca-tours",
+      "violations": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-hidden-focus?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#menu"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": [
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "#menu-toggle",
+            ".header__search-toggle"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ccaurora.edu/contact/",
+      "status": 403,
+      "title": null,
+      "finalUrl": "https://ccaurora.edu/contact/",
+      "slug": "contact",
+      "blocked": true,
+      "error": "HTTP 403",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": []
+    },
+    {
+      "url": "https://ccaurora.edu/contact/connect/",
+      "status": 403,
+      "title": null,
+      "finalUrl": "https://ccaurora.edu/contact/connect/",
+      "slug": "contact-connect",
+      "blocked": true,
+      "error": "HTTP 403",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": []
+    },
+    {
+      "url": "https://ccaurora.edu/es/",
+      "status": 403,
+      "title": null,
+      "finalUrl": "https://ccaurora.edu/es/",
+      "slug": "es",
+      "blocked": true,
+      "error": "HTTP 403",
+      "violations": [],
+      "violationTotal": 0,
+      "incomplete": []
+    },
+    {
+      "url": "https://ccaurora.edu/news-press/",
+      "title": "Latest News and Press – Community College of Aurora",
+      "finalUrl": "https://ccaurora.edu/news-press/",
+      "slug": "news-press",
+      "violations": [
+        {
+          "id": "aria-hidden-focus",
+          "impact": "serious",
+          "help": "ARIA hidden element must not be focusable or contain focusable elements",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-hidden-focus?application=playwright",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 1,
+          "firstTargets": [
+            "#menu"
+          ]
+        }
+      ],
+      "violationTotal": 1,
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "help": "Elements must only use permitted ARIA attributes",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            ".current",
+            ".dots"
+          ]
+        },
+        {
+          "id": "aria-valid-attr-value",
+          "impact": "critical",
+          "help": "ARIA attributes must conform to valid values",
+          "wcag": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "nodes": 2,
+          "firstTargets": [
+            "#menu-toggle",
+            ".header__search-toggle"
+          ]
+        }
+      ]
+    }
+  ],
+  "pagesHtml": {
+    "https://ccaurora.edu/": "pages/home.html",
+    "https://ccaurora.edu/about-cca/": "pages/about-cca.html",
+    "https://ccaurora.edu/about-cca/campus-locations/": "pages/about-cca-campus-locations.html",
+    "https://ccaurora.edu/academics/academic-leadership/": "pages/academics-academic-leadership.html",
+    "https://ccaurora.edu/academics/concurrent-enrollment/": "pages/academics-concurrent-enrollment.html",
+    "https://ccaurora.edu/academics/getting-started/": "pages/academics-getting-started.html",
+    "https://ccaurora.edu/admission-aid/financial-aid/office-of-the-cashier/": "pages/admission-aid-financial-aid-office-of-the-cashier.html",
+    "https://ccaurora.edu/apply/": "pages/apply.html",
+    "https://ccaurora.edu/cca-tours/": "pages/cca-tours.html",
+    "https://ccaurora.edu/news-press/": "pages/news-press.html"
+  }
+}
