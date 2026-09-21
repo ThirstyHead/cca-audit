@@ -110,26 +110,26 @@
 </header>
 <div class="wrap">
 <div class="meta">
-  <span>Last audited: <strong>September 14, 2026</strong> (UTC)</span>
-  <span>Published runs: 8</span>
+  <span>Last audited: <strong>September 21, 2026</strong> (UTC)</span>
+  <span>Published runs: 9</span>
   <span>Tooling: <a href="https://github.com/ThirstyHead/audit-ccaurora.edu">axe-core + Playwright</a>, run weekly via GitHub Actions</span>
-  <span><span class="delta down">▼ 4 vs last run</span></span>
+  <span><span class="delta up">▲ 19 vs last run</span></span>
 </div>
 
 <h2>Latest results</h2>
 <div class="cards">
-  <div class="card"><span class="num">0</span><span class="lbl">Node-level violations</span></div>
-  <div class="card"><span class="num">1</span><span class="lbl">Pages audited</span></div>
+  <div class="card"><span class="num">19</span><span class="lbl">Node-level violations</span></div>
+  <div class="card"><span class="num">5</span><span class="lbl">Pages audited</span></div>
   <div class="card"><span class="num">49</span><span class="lbl">Need manual review</span></div>
-  <div class="card"><span class="num warn">15</span><span class="lbl">Not audited (HTTP error)</span></div>
+  <div class="card"><span class="num warn">11</span><span class="lbl">Not audited (HTTP error)</span></div>
 </div>
 <div class="severities">
       <div class="sevcard" style="border-top:4px solid #03202F">
-        <span class="num">0</span>
+        <span class="num">12</span>
         <span class="lbl">Critical</span>
       </div>
       <div class="sevcard" style="border-top:4px solid #D74026">
-        <span class="num">0</span>
+        <span class="num">7</span>
         <span class="lbl">Serious</span>
       </div>
       <div class="sevcard" style="border-top:4px solid #7A5200">
@@ -144,34 +144,37 @@
 <h2>Trend</h2>
 <div>
     <svg viewBox="0 0 680 150" class="spark" role="img" aria-label="Trend of total node-level violations across audit runs">
-      <polyline points="40.0,18.0 125.7,77.2 211.4,70.6 297.1,60.8 382.9,106.8 468.6,67.4 554.3,106.8 640.0,120.0" fill="none" stroke="#004165" stroke-width="2.5" stroke-linejoin="round"/>
+      <polyline points="40.0,18.0 115.0,77.2 190.0,70.6 265.0,60.8 340.0,106.8 415.0,67.4 490.0,106.8 565.0,120.0 640.0,57.5" fill="none" stroke="#004165" stroke-width="2.5" stroke-linejoin="round"/>
       <circle cx="40.0" cy="18.0" r="4" fill="#004165">
          <title>2026-08-25T05:15:31.688Z — 31 node-level violations</title>
        </circle>
-<circle cx="125.7" cy="77.2" r="4" fill="#004165">
+<circle cx="115.0" cy="77.2" r="4" fill="#004165">
          <title>2026-08-25T06:13:08.836Z — 13 node-level violations</title>
        </circle>
-<circle cx="211.4" cy="70.6" r="4" fill="#004165">
+<circle cx="190.0" cy="70.6" r="4" fill="#004165">
          <title>2026-08-25T21:50:25.091Z — 15 node-level violations</title>
        </circle>
-<circle cx="297.1" cy="60.8" r="4" fill="#004165">
+<circle cx="265.0" cy="60.8" r="4" fill="#004165">
          <title>2026-08-25T21:55:27.296Z — 18 node-level violations</title>
        </circle>
-<circle cx="382.9" cy="106.8" r="4" fill="#004165">
+<circle cx="340.0" cy="106.8" r="4" fill="#004165">
          <title>2026-08-26T20:37:34.341Z — 4 node-level violations</title>
        </circle>
-<circle cx="468.6" cy="67.4" r="4" fill="#004165">
+<circle cx="415.0" cy="67.4" r="4" fill="#004165">
          <title>2026-08-31T12:34:02.612Z — 16 node-level violations</title>
        </circle>
-<circle cx="554.3" cy="106.8" r="4" fill="#004165">
+<circle cx="490.0" cy="106.8" r="4" fill="#004165">
          <title>2026-09-07T11:27:53.556Z — 4 node-level violations</title>
        </circle>
-<circle cx="640.0" cy="120.0" r="4" fill="#D74026">
+<circle cx="565.0" cy="120.0" r="4" fill="#004165">
          <title>2026-09-14T11:38:47.398Z — 0 node-level violations</title>
        </circle>
+<circle cx="640.0" cy="57.5" r="4" fill="#D74026">
+         <title>2026-09-21T11:52:26.733Z — 19 node-level violations</title>
+       </circle>
       <text x="40" y="142" class="axis">2026-08-25</text>
-      <text x="640" y="142" class="axis" text-anchor="end">2026-09-14</text>
-      <text x="648" y="124" class="axis">0</text>
+      <text x="640" y="142" class="axis" text-anchor="end">2026-09-21</text>
+      <text x="648" y="61.483870967741936" class="axis">19</text>
     </svg></div>
 
 <h2>Pages</h2>
@@ -180,10 +183,10 @@
 <table class="pages">
   <thead><tr><th class="pg">Page</th><th class="n">Violations</th><th class="n">Needs review</th><th>Report</th></tr></thead>
   <tbody>
-    <tr>
+    <tr class="bad">
       <td class="pg"><a href="https://ccaurora.edu/" rel="noopener">Home – Community College of Aurora</a> <span class="pwurl">https://ccaurora.edu/</span></td>
-      <td class="n">0</td>
-      <td class="n">49</td>
+      <td class="n bad">1</td>
+      <td class="n">3</td>
       <td class="links"><a class="pgrep" href="pages/home.html">Audit report</a></td>
     </tr>
     <tr class="caveat">
@@ -202,9 +205,11 @@
       <td class="pg"><span class="caveat-err">https://ccaurora.edu/academics/concurrent-enrollment/ — <em>not audited: HTTP 403 (WAF/404), excluded from results</em></span></td>
       <td class="n">—</td><td class="n">—</td><td></td>
     </tr>
-    <tr class="caveat">
-      <td class="pg"><span class="caveat-err">https://ccaurora.edu/academics/getting-started/ — <em>not audited: HTTP 403 (WAF/404), excluded from results</em></span></td>
-      <td class="n">—</td><td class="n">—</td><td></td>
+    <tr class="bad">
+      <td class="pg"><a href="https://ccaurora.edu/academics/getting-started/" rel="noopener">Getting Started – Community College of Aurora</a> <span class="pwurl">https://ccaurora.edu/academics/getting-started/</span></td>
+      <td class="n bad">13</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/academics-getting-started.html">Audit report</a></td>
     </tr>
     <tr class="caveat">
       <td class="pg"><span class="caveat-err">https://ccaurora.edu/academics/workforce-training/ — <em>not audited: HTTP 403 (WAF/404), excluded from results</em></span></td>
@@ -214,9 +219,11 @@
       <td class="pg"><span class="caveat-err">https://ccaurora.edu/admission-aid/advising/ — <em>not audited: HTTP 403 (WAF/404), excluded from results</em></span></td>
       <td class="n">—</td><td class="n">—</td><td></td>
     </tr>
-    <tr class="caveat">
-      <td class="pg"><span class="caveat-err">https://ccaurora.edu/admission-aid/financial-aid/office-of-the-cashier/ — <em>not audited: HTTP 403 (WAF/404), excluded from results</em></span></td>
-      <td class="n">—</td><td class="n">—</td><td></td>
+    <tr class="bad">
+      <td class="pg"><a href="https://ccaurora.edu/admission-aid/financial-aid/office-of-the-cashier/" rel="noopener">Cashier&#39;s Office – Community College of Aurora</a> <span class="pwurl">https://ccaurora.edu/admission-aid/financial-aid/office-of-the-cashier/</span></td>
+      <td class="n bad">4</td>
+      <td class="n">2</td>
+      <td class="links"><a class="pgrep" href="pages/admission-aid-financial-aid-office-of-the-cashier.html">Audit report</a></td>
     </tr>
     <tr class="caveat">
       <td class="pg"><span class="caveat-err">https://ccaurora.edu/apply/ — <em>not audited: HTTP 403 (WAF/404), excluded from results</em></span></td>
@@ -230,9 +237,11 @@
       <td class="pg"><span class="caveat-err">https://ccaurora.edu/cca-tours/ — <em>not audited: HTTP 403 (WAF/404), excluded from results</em></span></td>
       <td class="n">—</td><td class="n">—</td><td></td>
     </tr>
-    <tr class="caveat">
-      <td class="pg"><span class="caveat-err">https://ccaurora.edu/contact/ — <em>not audited: HTTP 403 (WAF/404), excluded from results</em></span></td>
-      <td class="n">—</td><td class="n">—</td><td></td>
+    <tr>
+      <td class="pg"><a href="https://ccaurora.edu/contact/" rel="noopener">Contact – Community College of Aurora</a> <span class="pwurl">https://ccaurora.edu/contact/</span></td>
+      <td class="n">0</td>
+      <td class="n">38</td>
+      <td class="links"><a class="pgrep" href="pages/contact.html">Audit report</a></td>
     </tr>
     <tr class="caveat">
       <td class="pg"><span class="caveat-err">https://ccaurora.edu/contact/connect/ — <em>not audited: HTTP 403 (WAF/404), excluded from results</em></span></td>
@@ -242,14 +251,16 @@
       <td class="pg"><span class="caveat-err">https://ccaurora.edu/es/ — <em>not audited: HTTP 403 (WAF/404), excluded from results</em></span></td>
       <td class="n">—</td><td class="n">—</td><td></td>
     </tr>
-    <tr class="caveat">
-      <td class="pg"><span class="caveat-err">https://ccaurora.edu/news-press/ — <em>not audited: HTTP 403 (WAF/404), excluded from results</em></span></td>
-      <td class="n">—</td><td class="n">—</td><td></td>
+    <tr class="bad">
+      <td class="pg"><a href="https://ccaurora.edu/news-press/" rel="noopener">Latest News and Press – Community College of Aurora</a> <span class="pwurl">https://ccaurora.edu/news-press/</span></td>
+      <td class="n bad">1</td>
+      <td class="n">4</td>
+      <td class="links"><a class="pgrep" href="pages/news-press.html">Audit report</a></td>
     </tr>
   </tbody>
 </table>
 
-<h2>Coverage caveats (15 not audited)</h2>
+<h2>Coverage caveats (11 not audited)</h2>
 <p class="note">These pages returned an HTTP error during the run, so axe could not analyze real content. They are excluded from the violation counts above. A 403 usually means the site's WAF blocked the audit's IP; a 404 means the page may have moved or the link is stale.</p>
 <table class="pages">
   <thead><tr><th class="pg">Page</th><th class="n">HTTP</th><th>Why</th></tr></thead>
@@ -267,16 +278,10 @@
     <tr><td class="pg"><a href="https://ccaurora.edu/academics/concurrent-enrollment/" rel="noopener">https://ccaurora.edu/academics/concurrent-enrollment/</a></td>
       <td class="n"><span class="caveat-badge">HTTP 403</span></td>
       <td class="count">Not audited — the page returned an HTTP error (often a WAF or 404) instead of real content, so it is excluded from the results above.</td></tr>
-    <tr><td class="pg"><a href="https://ccaurora.edu/academics/getting-started/" rel="noopener">https://ccaurora.edu/academics/getting-started/</a></td>
-      <td class="n"><span class="caveat-badge">HTTP 403</span></td>
-      <td class="count">Not audited — the page returned an HTTP error (often a WAF or 404) instead of real content, so it is excluded from the results above.</td></tr>
     <tr><td class="pg"><a href="https://ccaurora.edu/academics/workforce-training/" rel="noopener">https://ccaurora.edu/academics/workforce-training/</a></td>
       <td class="n"><span class="caveat-badge">HTTP 403</span></td>
       <td class="count">Not audited — the page returned an HTTP error (often a WAF or 404) instead of real content, so it is excluded from the results above.</td></tr>
     <tr><td class="pg"><a href="https://ccaurora.edu/admission-aid/advising/" rel="noopener">https://ccaurora.edu/admission-aid/advising/</a></td>
-      <td class="n"><span class="caveat-badge">HTTP 403</span></td>
-      <td class="count">Not audited — the page returned an HTTP error (often a WAF or 404) instead of real content, so it is excluded from the results above.</td></tr>
-    <tr><td class="pg"><a href="https://ccaurora.edu/admission-aid/financial-aid/office-of-the-cashier/" rel="noopener">https://ccaurora.edu/admission-aid/financial-aid/office-of-the-cashier/</a></td>
       <td class="n"><span class="caveat-badge">HTTP 403</span></td>
       <td class="count">Not audited — the page returned an HTTP error (often a WAF or 404) instead of real content, so it is excluded from the results above.</td></tr>
     <tr><td class="pg"><a href="https://ccaurora.edu/apply/" rel="noopener">https://ccaurora.edu/apply/</a></td>
@@ -288,16 +293,10 @@
     <tr><td class="pg"><a href="https://ccaurora.edu/cca-tours/" rel="noopener">https://ccaurora.edu/cca-tours/</a></td>
       <td class="n"><span class="caveat-badge">HTTP 403</span></td>
       <td class="count">Not audited — the page returned an HTTP error (often a WAF or 404) instead of real content, so it is excluded from the results above.</td></tr>
-    <tr><td class="pg"><a href="https://ccaurora.edu/contact/" rel="noopener">https://ccaurora.edu/contact/</a></td>
-      <td class="n"><span class="caveat-badge">HTTP 403</span></td>
-      <td class="count">Not audited — the page returned an HTTP error (often a WAF or 404) instead of real content, so it is excluded from the results above.</td></tr>
     <tr><td class="pg"><a href="https://ccaurora.edu/contact/connect/" rel="noopener">https://ccaurora.edu/contact/connect/</a></td>
       <td class="n"><span class="caveat-badge">HTTP 403</span></td>
       <td class="count">Not audited — the page returned an HTTP error (often a WAF or 404) instead of real content, so it is excluded from the results above.</td></tr>
     <tr><td class="pg"><a href="https://ccaurora.edu/es/" rel="noopener">https://ccaurora.edu/es/</a></td>
-      <td class="n"><span class="caveat-badge">HTTP 403</span></td>
-      <td class="count">Not audited — the page returned an HTTP error (often a WAF or 404) instead of real content, so it is excluded from the results above.</td></tr>
-    <tr><td class="pg"><a href="https://ccaurora.edu/news-press/" rel="noopener">https://ccaurora.edu/news-press/</a></td>
       <td class="n"><span class="caveat-badge">HTTP 403</span></td>
       <td class="count">Not audited — the page returned an HTTP error (often a WAF or 404) instead of real content, so it is excluded from the results above.</td></tr>
   </tbody>
@@ -307,7 +306,7 @@
 <div class="datamenu">
   <a href="latest.json">latest.json</a>
   <a href="history.json">history.json</a>
-  <a href="https://github.com/ThirstyHead/cca-audit/blob/main/reports/axe-2026-09-14T11-38-47-398Z.json">Raw report (latest)</a>
+  <a href="https://github.com/ThirstyHead/cca-audit/blob/main/reports/axe-2026-09-21T11-52-26-733Z.json">Raw report (latest)</a>
   <a href="https://github.com/ThirstyHead/cca-audit/tree/main/reports">All raw reports</a>
 </div>
 </div>
@@ -319,7 +318,7 @@
   Automated tooling detects only a subset of accessibility failures and does not replace
   manual or assistive-technology testing. “Needs manual review” items are results axe
   could not determine automatically.</p>
-  <p>Generated 2026-09-14T11:38:48.058Z · <a href="https://thirstyhead.com/cca-audit/">thirstyhead.com/cca-audit/</a></p>
+  <p>Generated 2026-09-21T11:52:27.642Z · <a href="https://thirstyhead.com/cca-audit/">thirstyhead.com/cca-audit/</a></p>
 </footer>
 </body>
 </html>
